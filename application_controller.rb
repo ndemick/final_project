@@ -8,7 +8,7 @@ class MyApp < Sinatra::Base
   end
 
   post '/results' do
-  	puts params
+  	Quiz.new(params)
   end
 
 end
