@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+	<title>Results</title> 
+	<!-- <link rel ="stylesheet" type ="text/css" href="css/style.css"> -->
+</head>
+<body>
+	You are <%= @winner %><br>
+	<% if @winner == "sporty" %>
+	<img src="https://38.media.tumblr.com/6c177f79e6a825510e18ad7984b4afe8/tumblr_mi2r8pJTmB1rjf0fxo1_400.gif">
+	<%elsif @winner == "nerdy" %> 
+	<img src="http://media.giphy.com/media/x3TGbdF6Z8tsQ/giphy.gif">
+	<%else %>
+	<img src="http://media.giphy.com/media/mp0X9k8eVoVgI/giphy.gif">
+	<% end %>
+</body>
+</html>
