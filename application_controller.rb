@@ -7,4 +7,8 @@ class MyApp < Sinatra::Base
     erb :hoome
   end
 
+  post '/results' do
+  	puts params
+  end
+
 end

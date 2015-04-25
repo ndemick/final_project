@@ -5,20 +5,36 @@
 
   <section id="dafram"> 
     
-    <h1>What's your gif <br> <br>
+    <h1>What's your gif</h1>  <br> <br>
 
     <img src="http://i.imgur.com/MoQKZfT.gif"><br>
-    </h1>
+
+    <form method="POST" action="/results">
+
+      <label>What is your favorite color?</label>
+      <input type="radio" name="color" value="Navy_Blue" checked>Navy Blue
+      <input type="radio" name="color" value="Blazing_Orange" checked>Blazing Orange
+      <input type="radio" name="color" value="Green" checked>Green
+
+      <label>If you could do anything that you wanted right now, what would you do?</label>
+      <input type="radio" name="activity" value="SATs" checked> Study for the SATs
+      <input type="radio" name="activity" value="hedge_fund" checked>Create a hedge fund
+      <input type="radio" name="activity" value="free_throws" checked>Practice free throws
 
 
-    <h4> blablablablablablablablablablablablablablablablablablabla
+                
+<!-- 
+                <li>What did you get on your last math test?</li>
+                <li>When was the last time you went to a party?</li>
+                <li>What is your name?</li>
+                <li>What phone do you use?</li> -->
 
-    </h4>
 
-    <h1>
-      <input type="button" class="butttonz" value="submit "> 
+ 
 
-    </h1>     
+      <input type="button" class="butttonz" value="submit"> 
+    </form>
+   
     
 
 
